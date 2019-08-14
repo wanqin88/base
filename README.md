@@ -5,6 +5,8 @@
   + git clone https://github.com/cloudpeak/base03.git
   + mkdir build
   + cd build
+  + Visual Studio 2019 Win64
+    + cmake -G "Visual Studio 16 2019" .. -DCMAKE_BUILD_TYPE=RELEASE
   + Visual Studio 2015 Win64
     + cmake -G "Visual Studio 14 2015 Win64" ../base03 -DCMAKE_BUILD_TYPE=RELEASE
   + Visual Studio 2015 Win32
